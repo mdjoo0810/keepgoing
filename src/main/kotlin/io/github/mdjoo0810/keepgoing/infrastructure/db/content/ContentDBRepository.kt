@@ -1,10 +1,10 @@
-package io.github.mdjoo0810.keepgoing.infrastructure.db
+package io.github.mdjoo0810.keepgoing.infrastructure.db.content
 
-import io.github.mdjoo0810.keepgoing.domain.Content
-import io.github.mdjoo0810.keepgoing.domain.ContentListItem
-import io.github.mdjoo0810.keepgoing.domain.ContentRepository
-import io.github.mdjoo0810.keepgoing.infrastructure.db.jpa.ContentEntityJpaRepository
-import io.github.mdjoo0810.keepgoing.infrastructure.db.jpa.UserEntityJpaRepository
+import io.github.mdjoo0810.keepgoing.domain.content.Content
+import io.github.mdjoo0810.keepgoing.domain.content.ContentListItem
+import io.github.mdjoo0810.keepgoing.domain.content.ContentRepository
+import io.github.mdjoo0810.keepgoing.infrastructure.db.content.jpa.ContentEntityJpaRepository
+import io.github.mdjoo0810.keepgoing.infrastructure.db.content.jpa.UserEntityJpaRepository
 import jakarta.transaction.Transactional
 import org.springframework.stereotype.Repository
 

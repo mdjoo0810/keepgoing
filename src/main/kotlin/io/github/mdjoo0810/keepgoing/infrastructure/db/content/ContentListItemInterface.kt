@@ -1,4 +1,4 @@
-package io.github.mdjoo0810.keepgoing.infrastructure.db
+package io.github.mdjoo0810.keepgoing.infrastructure.db.content
 
 import java.time.LocalDateTime
 

@@ -1,4 +1,4 @@
-package io.github.mdjoo0810.keepgoing.domain
+package io.github.mdjoo0810.keepgoing.domain.content
 
 import org.springframework.stereotype.Service
 

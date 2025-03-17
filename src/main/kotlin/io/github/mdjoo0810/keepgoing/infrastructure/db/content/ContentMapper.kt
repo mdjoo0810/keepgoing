@@ -1,8 +1,8 @@
-package io.github.mdjoo0810.keepgoing.infrastructure.db
+package io.github.mdjoo0810.keepgoing.infrastructure.db.content
 
-import io.github.mdjoo0810.keepgoing.domain.Content
-import io.github.mdjoo0810.keepgoing.domain.ContentListItem
-import io.github.mdjoo0810.keepgoing.domain.ContentWriter
+import io.github.mdjoo0810.keepgoing.domain.content.Content
+import io.github.mdjoo0810.keepgoing.domain.content.ContentListItem
+import io.github.mdjoo0810.keepgoing.domain.content.ContentWriter
 
 internal fun Content.toContentEntity(userId: Long) =
     ContentEntity(
