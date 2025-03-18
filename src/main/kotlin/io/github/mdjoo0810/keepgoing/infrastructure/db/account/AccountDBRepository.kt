@@ -11,6 +11,11 @@ import java.sql.SQLException
 class AccountDBRepository internal constructor(
     private val accountJpaRepository: AccountJpaRepository,
 ) : AccountRepository {
+    override fun findAll(): List<Account> {
+        val accountEntities = accountJpaRepository.findAll()
+        return accountEntities.map { it.toAccount() }
+    }
+
     override fun getAccount(accountNumber: String): Account? {
         val account = accountJpaRepository.findByAccountNumber(accountNumber) ?: return null
         return account.toAccount()

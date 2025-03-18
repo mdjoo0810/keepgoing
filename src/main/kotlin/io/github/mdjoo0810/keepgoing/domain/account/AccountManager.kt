@@ -8,6 +8,10 @@ import java.math.BigDecimal
 class AccountManager(
     private val accountRepository: AccountRepository,
 ) {
+    fun listAccounts(): List<Account> {
+        return accountRepository.findAll()
+    }
+
     fun register(accountNumber: String): Account {
         val existAccount = accountRepository.getAccount(accountNumber)
 
