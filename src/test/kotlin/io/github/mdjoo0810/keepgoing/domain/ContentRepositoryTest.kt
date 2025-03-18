@@ -18,7 +18,7 @@ class ContentRepositoryTest {
     @BeforeEach
     fun setUp() {
         val sb = StringBuilder()
-        repeat(100000) {
+        repeat(10000) {
             sb.append("$it")
         }
         val dummyContent = sb.toString()

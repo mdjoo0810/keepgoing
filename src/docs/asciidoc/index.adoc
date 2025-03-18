@@ -1,0 +1,53 @@
+
+= API 명세
+
+== 잔액 조회
+
+=== 요청 예시
+include::{snippets}/balance/get-balance/http-request.adoc[]
+
+=== 응답 예시
+include::{snippets}/balance/get-balance/http-response.adoc[]
+
+=== CURL 예시
+include::{snippets}/balance/get-balance/curl-request.adoc[]
+
+=== Query 파라미터
+include::{snippets}/balance/get-balance/query-parameters.adoc[]
+
+=== 응답 상세
+include::{snippets}/balance/get-balance/response-fields.adoc[]
+
+== 계좌 입금
+
+=== 요청 예시
+include::{snippets}/balance/deposit/http-request.adoc[]
+
+=== 응답 예시
+include::{snippets}/balance/deposit/http-response.adoc[]
+
+=== CURL 예시
+include::{snippets}/balance/deposit/curl-request.adoc[]
+
+=== 응답 상세
+include::{snippets}/balance/deposit/request-body.adoc[]
+
+=== 응답 상세
+include::{snippets}/balance/deposit/response-fields.adoc[]
+
+== 계좌 출금
+
+=== 요청 예시
+include::{snippets}/balance/withdraw/http-request.adoc[]
+
+=== 응답 예시
+include::{snippets}/balance/withdraw/http-response.adoc[]
+
+=== CURL 예시
+include::{snippets}/balance/withdraw/curl-request.adoc[]
+
+=== 응답 상세
+include::{snippets}/balance/withdraw/request-body.adoc[]
+
+=== 응답 상세
+include::{snippets}/balance/withdraw/response-fields.adoc[]

@@ -17,10 +17,11 @@ data class ApiResult<T> internal constructor(
         fun <T> error(
             code: Int,
             message: String,
+            result: T? = null,
         ): ApiResult<T> {
             return ApiResult(
-                code = 100,
-                message = "성공",
+                code = code,
+                message = message,
                 result = null,
             )
         }
